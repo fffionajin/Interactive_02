@@ -1,0 +1,48 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+/* this is a comment */
+
+#container {
+	width:500px;
+	margin: 0 auto;
+}
+
+#exercises, #projects {
+	margin: 40px 0px;
+}
+
+h1 {
+	color:red;
+}
+
+h1, h2, h3 {
+	margin: 20px 0;
+    font-size:20pt;
+} 
+
+p {
+	margin: 20px 0;
+	font-size:14pt;
+	line-height: 150%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color:black;
+}
+
+a:hover {
+	color:red;
+}

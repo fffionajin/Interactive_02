@@ -1,0 +1,1156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	overflow-x: hidden;
+}
+
+
+/*
+				.Alphabet{
+					background-color: none;
+					width: 100px;
+					height: 100px;
+					position: relative;
+					margin: 30px;
+					margin-top:10px;
+					margin-left: 5px;
+					margin-right: 5px;
+					margin-bottom: 10px;
+					float:left;
+					top: 400px;
+				transform: scale(0.5);
+				}
+*/
+
+.showcase{
+	position: absolute;
+right:100px;
+	left:100px;
+	top:950px;
+}
+
+				.Alphabet2{
+					background-color: none;
+					width: 30px;
+					height: 100px;
+					position: relative;
+					margin: 40px;
+					margin-top:40px;
+					margin-left:50px;
+					float:left;
+					top: 0px;
+					transform: scale(0.5);
+				}
+
+				.Alphabet2>div div {
+					opacity: 0.05;
+					transition: opacity 1000ms;
+				}
+				.Alphabet2.show>div div {
+					opacity: 5;
+					
+				}
+				.Alphabet2.show>div div:nth-child(1) {
+					transition-delay:100ms;
+				}
+				.Alphabet2.show>div div:nth-child(2) {
+					transition-delay:300ms;
+				}
+				.Alphabet2.show>div div:nth-child(3) {
+					transition-delay:500ms;
+				}
+				.Alphabet2.show>div div:nth-child(4) {
+					transition-delay:600ms;
+				}
+				.Alphabet2.show>div div:nth-child(5) {
+					transition-delay:800ms;
+				}
+				.Alphabet2.show>div div:nth-child(6) {
+					transition-delay:100ms;
+				}
+
+/*
+.Alphabet{
+	position: absolute;
+	left:100px;
+}
+*/
+				.Canvas1{
+				 position: absolute;
+					width:100%;
+					height:100%;
+					background-color:#94b8b8;
+					display:inline-block;
+					cursor:pointer;
+					scroll-behavior:smooth;
+					overflow-y: hidden;
+				}
+
+				.Canvas2{
+					 position: absolute;
+					width:100%;
+					height:100%;
+					top:850px;
+					background-color:#669999;
+					display:inline-block;
+					cursor:pointer;
+					scroll-behavior:smooth;
+				}
+
+			.Canvas3{
+					 position: absolute;
+					width:100%;
+					height:100%;
+					top:1690px;
+					background-color:#476b6b;
+					display:inline-block;
+					cursor:pointer;
+					scroll-behavior:auto;
+				}
+
+
+.Block1{
+	height:220px;
+	width:2000px;
+	background-color:#94b8b8;
+	position: absolute;
+	top:0px;
+	left:8px;
+}
+
+
+/*
+				.Ends{
+					background-color: gold;
+					height:100px;
+					width: 2000px;
+					position: absolute;
+					left: 0px;
+					bottom:-1800px;
+				}
+*/
+
+
+
+
+/*
+.Specimen3{
+	position: absolute;
+	top:0px;
+	-webkit-animation: Specimen3 7s infinite;  
+					animation: Specimen3 7s infinite;
+				}
+
+				 Safari 4.0 - 8.0 
+				@-webkit-keyframes Specimen3 {
+					from {top: -8000px;}
+					to {top: 90000px;}
+				}
+
+				@keyframes Specimen3{
+					from {top: -800px;}
+					to {top: 900px;}
+				}	
+*/
+
+
+/*
+
+.Specimen3:nth-child(1){
+	position: absolute;
+	top:-100px;
+	left:500px;
+}
+*/
+
+				.FrameS_1{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:21px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: Frames1 5s infinite; 
+					animation: FrameS_1 5s infinite;
+					 -webkit-animation-direction: alternate;
+				}
+				/*	Safari 4.0 - 8.0 */
+				@-webkit-keyframes FrameS_1{
+					from {top: 0px ;}
+					to {top:300;}
+				}
+				@keyframes FrameS_1{
+					from {top: 100px;}
+					to {top: 300px;}
+				}
+		
+				.FrameS_2{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:21px;
+
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_2 5s infinite;  
+					animation: FrameS_2 5s infinite;
+					 -webkit-animation-direction: alternate;
+				}
+					/* Safari 4.0 - 8.0 */
+				@-webkit-keyframes FrameS_2 {
+					from {top: -500px;}
+					to {top: 200px;}
+				}
+				@keyframes FrameS_2{
+					from {top: -500px;}
+					to {top: 200px;}
+				}	
+
+				.FrameS_3{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:21px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_3 5s infinite;  
+					animation: FrameS_3 5s infinite;
+					 -webkit-animation-direction: alternate;
+				}
+				@-webkit-keyframes FrameS_3{
+					from {top: -1000px;}
+					to {top:100;}
+				}
+				@keyframes FrameS_3{
+					from {top: -1000px;}
+					to {top: 100px;}
+				}
+
+				.FrameS_4{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:21px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_4 5s infinite; /* Safari 4.0 - 8.0 */
+					animation: FrameS_4 5s infinite;
+					 -webkit-animation-direction: alternate;
+				}
+			@-webkit-keyframes FrameS_4 {
+					from {top: -1500px;}
+					to {top:0px;}
+				}
+				@keyframes FrameS_4{
+					from {top: -1500px;}
+					to {top:0px;}
+				}
+
+			.FrameS_5{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:21px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_5 5s infinite;  
+					animation: FrameS_5 5s infinite;
+				 -webkit-animation-direction: alternate
+				}
+			@-webkit-keyframes FrameS_5 {
+					from {top: -2000px;}
+					to {top: -100px;}
+				}
+				@keyframes FrameS_5{
+					from {top:-2000px;}
+					to {top:-100px;}
+				}
+
+
+
+			.FrameS_6{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:25px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_6 8s infinite;  
+					animation: FrameS_6 8s infinite;
+				}
+			@-webkit-keyframes FrameS_6{
+					from {top: -2500px;}
+					to {top: 0px;}
+				}
+
+				@keyframes FrameS_6{
+					from {top:-2500px;}
+					to {top:0px;}
+				}
+
+			.FrameS_7{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:25px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_7 9s infinite;  
+					animation: FrameS_7 9s infinite;
+				}
+			@-webkit-keyframes FrameS_7 {
+					from {top: -3000px;}
+					to {top:-100px;}
+				}
+
+				@keyframes FrameS_7{
+					from {top:-3000px;}
+					to {top:-100px;}
+				}
+			.FrameS_8{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:25px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_8 10s infinite;  
+					animation: FrameS_8 10s infinite;
+				}
+			@-webkit-keyframes FrameS_8 {
+					from {top: -3500px;}
+					to {top:-350px;}
+				}
+
+				@keyframes FrameS_8w{
+					from {top:-1500px;}
+					to {top:-300px;}
+				}
+
+		.FrameS_9{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:25px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_9 11s infinite;  
+					animation: FrameS_9 11s infinite;
+				}
+			@-webkit-keyframes FrameS_9 {
+					from {top: -4000px;}
+					to {top:-500px;}
+				}
+
+				@keyframes FrameS_9{
+					from {top:-4000px;}
+					to {top:-500px;}
+				}
+
+		.FrameS_10{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:25px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_10 12s infinite;  
+					animation: FrameS_10 12s infinite;
+				}
+			@-webkit-keyframes FrameS_10 {
+					from {top: -4500px;}
+					to {top:-600px;}
+				}
+
+				@keyframes FrameS_10{
+					from {top:-4500px;}
+					to {top:-600px;}
+				}
+
+		.FrameS_11{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:25px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_11 13s infinite;  
+					animation: FrameS_11 13s infinite;
+				}
+			@-webkit-keyframes FrameS_11 {
+					from {top: -5000px;}
+					to {top:-800px;}
+				}
+
+				@keyframes FrameS_11{
+					from {top:-5000px;}
+					to {top:-800px;}
+				}
+
+			.FrameS_12{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:25px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_12 14s infinite;  
+					animation: FrameS_12 14s infinite;
+				}
+			@-webkit-keyframes FrameS_12{
+					from {top: -5500px;}
+					to {top:-900px;}
+				}
+
+				@keyframes FrameS_12{
+					from {top:-5500px;}
+					to {top:-900px;}
+				}
+.FrameS_13{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:25px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_13 15s infinite;  
+					animation: FrameS_13 14s infinite;
+				}
+			@-webkit-keyframes FrameS_15 {
+					from {top: -6000px;}
+					to {top:-1000px;}
+				}
+
+				@keyframes FrameS_13{
+					from {top:-6000px;}
+					to {top:-1000px;}
+				}
+.FrameS_14{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:25px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_14 16s infinite;  
+					animation: FrameS_14 16s infinite;
+				}
+			@-webkit-keyframes FrameS_14 {
+					from {top: -6500px;}
+					to {top:-1100px;}
+				}
+
+				@keyframes FrameS_14{
+					from {top:-6500px;}
+					to {top:-1100px;}
+				}
+.FrameS_15{
+					background-color: none;
+					width: 50px;
+					height: 100px;
+					position: relative;
+					margin:25px;
+					margin-top:10px;
+					margin-left:50px;
+					float:left;
+					transform: scale(.5);
+					-webkit-animation: FrameS_15 17s infinite;  
+					animation: FrameS_15 17s infinite;
+				}
+			@-webkit-keyframes FrameS_15 {
+					from {top: -7000px;}
+					to {top:-1200px;}
+				}
+
+				@keyframes FrameS_15{
+					from {top:-7000px;}
+					to {top:-1200px;}
+				}
+
+
+/*
+.Text{
+	position:absolute;
+	top:1800px;
+	transform:scale(0.6);	
+}
+*/
+
+					.Text1{
+						position: absolute;
+						top:1800px;
+						left:100px;
+						transform:scale(0.6);
+					}
+
+
+					.Text2{
+						position:absolute;
+						top:1900px;
+						left:100px;
+						transform:scale(0.6);
+					}
+
+
+					.Text3{
+						position:absolute;
+						top:2000px;
+						left:50px;
+						right:50px;
+						transform:scale(0.6);
+					}
+
+					.Text4{
+						position: absolute;
+						top:2150px;
+						left:150px;
+						right:100px;
+						transform:scale(0.6);
+					}
+					.Text5{
+						position: absolute;
+						top:2250px;
+						left:350px;
+						right:100px;	
+						transform:scale(0.6);
+					}
+
+
+
+						.Welcome1{
+												width: 100px;
+												height: 200px;
+												position: relative;
+												top:-650px;
+												margin: 40px;
+												margin-top:10px;
+												margin-left: 40px;
+												float:left;
+												transform: scale(.75);
+												-webkit-animation: welcome1 5s infinite;
+												animation: welcome1 5s infinite;
+											}
+
+/*
+											.Welcome1:hover{
+												transform: scale(1.5);
+												-webkit-animation: welcome1 10s infinite;  Safari 4.0 - 8.0 
+												animation: welcome1 5s infinite;
+											}
+*/
+
+											/* Safari 4.0 - 8.0 */
+/*
+											@-webkit-keyframes welcome1 {
+												from {left: 0px;}
+												to {left: 1500;}
+											}
+
+											@keyframes welcome1 {
+												from {left: 0px;}
+												to {left: 1500px;}
+											}	
+*/
+
+
+
+										.Welcome2{
+											width: 100px;
+												height: 200px;
+												position: relative;
+												top:-350px;
+												margin: 40px;
+												margin-top:10px;
+												margin-left: 40px;
+												float:left;			
+												transform: scale(.75);
+												-webkit-animation: welcome2 5s infinite; /* Safari 4.0 - 8.0 */
+												animation: welcome2 5s infinite;
+										}
+
+/*
+										.Welcome2:hover{
+												
+												transform: scale(3);
+												float:left;
+
+												-webkit-animation: welcome2 5s infinite;  Safari 4.0 - 8.0 
+												animation: welcome2 5s infinite;
+											}
+*/
+
+
+									/* Safari 4.0 - 8.0 */
+/*
+									@-webkit-keyframes welcome2 {
+											from {left: 0px;}
+											to {left: 1500px;}
+									}
+
+									@keyframes welcome2 {
+											from {left: 0px;}
+											to {left: 1500px;}
+									}	
+*/
+
+
+
+
+
+			.Space_HorizontalTop{
+				background-color: yellow;
+				width:66px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+}
+			.Spcae_Vertical{
+				background-color: yellow;
+				width:10px;
+				height: 200px;
+}
+			.Space_HorizontalBottom{
+				background-color: yellow;
+				width:152px;
+				height:10px;
+				position: absolute;
+				left:0px;
+				top:200px;
+}
+			.Space_LongSlash{
+				background-color:yellow;
+				width:10px;
+				height:224px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -7px;
+				left:100px;
+}
+
+			.Vertical {
+				background-color: black;
+				width:10px;
+				height: 200px;
+			}
+
+			.LongVertical{
+				background-color: black;
+				width:10px;
+				height: 210px;
+			}	
+ 
+			.MiddleVertical{
+				background-color: black;
+				width:10px;
+				height: 140px;	
+			}
+
+			.Short_Vertical{
+				background-color: black;
+				width:10px;
+				height: 60px;
+				position: absolute;
+				top:140px;
+			}
+
+			.HorizontalTop{
+				background-color: black;
+				width:66px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+
+			.ShortHorizontalTop{
+				background-color: black;
+				width:65px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+
+			.HorizontalMiddle{
+				background-color: black;
+				width:122px;
+				height: 10px;
+				position:absolute;
+				top: 140px;
+				left:0px;
+			}
+			
+		.HorizontalMiddle2{
+				background-color: black;
+				width:123px;
+				height: 10px;
+				position:absolute;
+				top: 140px;
+				left:0px;
+			}
+
+			.HorizontalBottom{
+				background-color: black;
+				width:152px;
+				height:10px;
+				position: absolute;
+				left:0px;
+				top:200px;
+			}
+
+			.HorizontalBottom2{
+				background-color: black;
+				width:148px;
+				height:10px;
+				position:absolute;
+				top:200px; 
+			}
+
+			.LongHorizontalMiddle{
+				background-color: black;
+				width:130px;
+				height: 10px;
+				position:absolute;
+				top: 140px;
+			}
+
+			.ShortHorizontalBottom{
+				background-color: black;
+				width:124px;
+				height:10px;
+				position: absolute;
+				left:0px;
+				top:200px;
+			}
+
+			.LongSlash{
+				background-color: black;
+				width:10px;
+				height:224px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -7px;
+				left:100px;
+			}
+
+		.ShortLongSlash{
+				background-color: black;
+				width:10px;
+				height:218px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -7px;
+				left:100px;
+			}
+		
+			.MiddleSlash{
+				background-color: black;
+				width:10px;
+				height:151px;
+				rotate:30px;
+				transform: rotate(-22deg);
+				position: absolute;
+				top: -3.5px;
+				left:84px;
+			}
+
+			.ShortSlash{
+				background-color: black;
+				width:10px;
+				height:65px;
+/*				rotate:30px;*/
+				transform: rotate(-22.5deg);
+				position: absolute;
+				top:140px;
+				left:126px;
+			}
+
+				.CenterSlash{
+				background-color: black;
+				width:10px;
+				height:67px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top:145px;
+				left:85px;
+			}
+
+			.N2{
+				position:absolute;
+				left:50px;
+				top:5px;
+			}
+			
+			.N1{
+				position:absolute;
+				left:-50px;
+				top:5px;
+}
+/*
+			.M{
+				background-color:none;
+				height: 200px;
+				position:absolute;
+				left:200px;
+				top:0px;
+				
+			}
+*/
+
+			.I_Vertical{
+				position:absolute;
+				left:25px;	
+				top:0px;
+			}
+			
+			.T_Vertical{
+				width: 10px;
+				height:140px;
+				position:absolute;
+				left:65px;	
+				top:0px;
+			}
+
+			.DJ_Slash{
+				background-color: black;
+				width:10px;
+				height:176px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -5px;
+				left:91px;
+			}
+
+			.K_Vertical{
+				background-color: black;
+				width:10px;
+				height:60px;
+				position:absolute;
+				top:80px;
+				left:113px;	
+			}
+
+			.Q_CenterSlash{
+				background-color: black;
+				width:10px;
+				height:67px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top:155px;
+				left:85px;
+			}
+
+			.O_Vertical{
+				background-color: black;
+				width:10px;
+				height: 121px;
+				position: absolute;
+				top:50px;
+			}
+
+			.O_Slash{
+				background-color: black;
+				width:10px;
+				height:144px;
+				rotate:30px;
+				transform: rotate(-24deg);
+				position: absolute;
+				top: 19px;
+				left:100px;
+			}
+			
+			.O_HorizontalBottom{
+	background-color: black;
+				width:73px;
+				height:10px;
+	position: absolute;
+	top:200px;
+	left: 25PX;
+}
+
+			.TopCircle{
+				width:63px;
+				height:80px;
+				border-radius:55px;
+				border:10px solid black;
+				position:absolute;
+				top: -1px;
+				left:0px;
+				clip-path: polygon(0% 0%, 100% 0%, 100% 24%, 0% 60%);
+				}
+
+			.BottomCircle {
+				width:121px;
+				height:60px;
+				border-radius:55px;
+				border:10px solid black;
+				position:absolute;
+				top:130px;
+				left:0px;
+				clip-path: polygon(-190% 90%, 100% 30%, 100% 100%, 0% 100%);
+}
+
+			.BG_Circle{
+				width:60px;
+				height:50px;
+				border-radius:55px;
+				border:10px solid black;
+				position:absolute;
+				top: 140px;
+				left:84px;
+				clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+}
+
+			.DJ_ShortHorizontalBottom{
+				background-color: black;
+				width:108px;
+				height:10px;
+				position: absolute;
+				left:0px;
+				top:200px;
+			}
+
+			.DJ_Circle{
+				width:100px;
+				height:47px;
+				border-radius:100px;
+				background:0;
+				border:10px solid black;
+				position:absolute;
+				top: 143px;
+				left:18px;
+				clip-path: polygon(100% 0%, 100% 20%, 100% 100%, 70% 100% );
+				}
+
+			.Seven_Vertical{
+				background-color: black;
+				width:10px;
+				height: 100px;
+			}
+
+			.DJ_BigCircle{
+				width:60px;
+				height:49px;
+				border-radius:55px;
+				background: black;
+				border:10px solid black;
+				position:absolute;
+				top: 141px;
+				left:80px;
+				clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+				}
+
+			.V{
+	position: absolute;
+	left:75px;
+}
+
+			.G_HorizontalMiddle{
+		background-color: black;
+				width:60px;
+				height: 10px;
+				position:absolute;
+				top: 140px;
+				left: 110px;
+}
+
+			.S_TopSlash{
+	background-color: black;
+				width:10px;
+				height:60px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: 0px;
+				left:67px;
+	
+}
+
+			.S_BottomVertical{
+	background-color: black;
+				width:10px;
+				height: 30px;
+				position: absolute;
+				top:170px;
+}
+	
+			.T_HorizontalTop{
+				background-color: black;
+				width:150px;
+				height:10px;
+				
+}
+
+			.N_LongSlash{
+				background-color: black;
+				width:10px;
+				height:224px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -7px;
+				left:100px;
+			}
+
+			.V{
+	position:absolute;
+	transform: rotate(180deg);
+}
+
+			.W{
+	position:absolute;
+	transform: rotate(180deg);
+/*	left: 100px;*/
+				top:215px;
+				left:100px;
+}
+
+			.X_HorizontalBottom{
+	background-color: black;
+				width:65.5px;
+				height:10px;
+				position: absolute;
+				top: 200px;
+				left:145px;
+}
+
+			.x2{
+	transform: scaleX(-1);
+	position: absolute;
+				top: 0px;
+				left:200px;
+}
+			
+			.N{
+				position:absolute;
+				left:25px;
+			}
+			
+
+/*
+.X{
+	position: absolute;
+				top: -25px;
+				left:-10px;
+}
+*/
+
+			.M{
+	position: absolute;
+	left:10px;
+	top:-5px;
+}
+
+			.Y{
+				position:absolute;
+				left:50px;
+				top:0px;
+			}
+
+			.Z{
+				position: absolute;
+				top:0px;
+			}
+			.Z_HorizontalTop{
+				background-color: black;
+				width:64px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.Z_Slash{
+	background-color: black;
+	width:10px;
+	height:202px;
+	position: absolute;
+	left:27px;
+	top:5px;
+	transform: rotate(15.5deg)
+}
+
+
+
+	.One_Slash{
+			background-color: black;
+				width:10px;
+				height:224px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -7px;
+				left:60px;
+
+	}
+
+	.One_Top{
+				background-color: black;
+				width:25px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+	}
+
+
+.Seven_Vertical{
+				background-color: black;
+				width:10px;
+				height: 100px;
+			}
+
+
+
+
+
+
+
+
+
+

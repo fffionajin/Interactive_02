@@ -1,0 +1,537 @@
+@charset "UTF-8";
+/* CSS Document */
+.body{
+	position: absolute;
+	margin-left:50px;
+	float: left;	
+}
+
+.Alphabet{
+	position: absolute;
+	margin: 20px;
+	float: 20px;
+	
+}
+
+	.Vertical {
+				background-color: black;
+				width:15px;
+				height: 200px;
+			}
+			.HorizontalTop{
+				background-color: black;
+				width:80px;
+				height: 15px;
+				position: absolute;
+				top: 0px;
+				}
+			.HorizontalMiddle{
+				background-color: black;
+				width:150px;
+				height: 15px;
+				position:absolute;
+				top: 140px;
+			}
+			.HorizontalBottom{
+				background-color: black;
+				width:150px;
+				height: 15px;
+			}
+
+
+
+
+
+/*
+			.Vertical {
+				background-color: black;
+				width:10px;
+				height: 225px;
+			}
+			.HorizontalTop{
+				background-color: black;
+				width:90px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.HorizontalMiddle{
+				background-color: black;
+				width:150px;
+				height: 10px;
+				position:absolute;
+				top: 140px;
+			}
+			.HorizontalBottom{
+				background-color: black;
+				width:150px;
+				height: 10px;
+			}
+			.LongSlash{
+				background-color: black;
+				width:10px;
+				height:232px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -4px;
+				left:113px;
+			}
+		
+			.MiddleSlash{
+				background-color: black;
+				width:10px;
+				height:157px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -2px;
+				left:96px;
+			}
+*/
+/*
+.N1{
+	position: absolute;
+	top:500px;
+	left:400px;
+	
+}
+*/
+
+
+/*
+.N2{
+	position: absolute;
+	top:500px;
+	left:650px;
+}
+*/
+
+
+
+.W{
+/*
+	position: absolute;
+	top:10px;
+	left:200px;
+*/
+	transform: rotate(180deg)
+}
+	.W_Vertical1 {
+				background-color: black;
+				width:10px;
+				height: 225px;
+			}
+			.W_HorizontalTop1{
+				background-color: black;
+				width:91px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.W_LongSlash1{
+				background-color: black;
+				width:10px;
+				height:232px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -4px;
+				left:113px;
+			}
+		.W2{
+			position: absolute;
+			top:0px;
+			left:-115px;
+}
+			.W_Vertical2 {
+				background-color: black;
+				width:10px;
+				height: 225px;
+			}
+			.W_HorizontalTop2{
+				background-color: black;
+				width:90px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.W_LongSlash2{
+				background-color: black;
+				width:10px;
+				height:232px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -4px;
+				left:113px;
+			}
+		
+
+
+
+
+	
+
+
+
+.A{
+/*
+	position: absolute;
+	top: 300px;
+	left:200px;
+*/
+}
+			.A_Vertical {
+				background-color: black;
+				width:10px;
+				height: 225px;
+			}
+			.A_HorizontalTop{
+				background-color: black;
+				width:90px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.A_HorizontalMiddle{
+				background-color: black;
+				width:150px;
+				height: 10px;
+				position:absolute;
+				top: 140px;
+			}
+			.A_LongSlash{
+				background-color: black;
+				width:10px;
+				height:232px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -4px;
+				left:113px;
+			}
+		
+/*
+.F{
+	position: absolute;
+	top: 300px;
+	left:450px;
+}
+			.F_Vertical {
+				background-color: black;
+				width:10px;
+				height: 225px;
+			}
+			.F_HorizontalTop{
+				background-color: black;
+				width:90px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.F_HorizontalMiddle{
+				background-color: black;
+				width:150px;
+				height: 10px;
+				position:absolute;
+				top: 140px;
+			}
+			
+*/
+
+.E{
+	position: absolute;
+	top: 25px;
+	left:350px;
+}
+			.E_Vertical {
+				background-color: black;
+				width:10px;
+				height: 200px;
+			}
+			.E_HorizontalTop{
+				background-color: black;
+				width:90px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.E_HorizontalMiddle{
+				background-color: black;
+				width:150px;
+				height: 10px;
+				position:absolute;
+				top: 140px;
+			}
+			.E_HorizontalBottom{
+				background-color: black;
+				width:150px;
+				height: 10px;
+			}
+
+.L{
+	position: absolute;
+	top: 25px;
+	left:520px;
+}
+			.L_Vertical {
+				background-color: black;
+				width:10px;
+				height: 200px;
+			}
+			.L_HorizontalBottom{
+				background-color: black;
+				width:150px;
+				height: 10px;
+			}
+.C{
+	position: absolute;
+	top:25px;
+	left:700px;
+}
+
+			.C_Vertical {
+				background-color: black;
+				width:10px;
+				height: 200px;
+			}
+			.C_HorizontalTop{
+				background-color: black;
+				width:90px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.C_HorizontalBottom{
+				background-color: black;
+				width:150px;
+				height: 10px;
+}
+
+.O{
+	position: absolute;
+	top:10px;
+	left:900px;
+}
+
+			.O_Vertical {
+				background-color: black;
+				width:10px;
+				height: 150px;
+				position: absolute;
+				top: 45px;
+			}
+			.O_HorizontalTop{
+				background-color: black;
+				width:65px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				left:45px;
+				}
+		
+			.O_HorizontalBottom{
+				background-color: black;
+				width:100px;
+				height: 10px;
+				position: absolute;
+				top: 200px;
+				left: 45px;
+			}
+			.O_LongSlash{
+				background-color: black;
+				width:10px;
+				height:150px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: 30px;
+				left:125px;
+			}
+			.LeftTopCircle{
+				width:60px;
+				height:60px;
+				border-radius:55px;
+				background: black;
+				border:10px solid black;
+				position:absolute;
+				top: 115px;
+				left:95px;
+				clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+				}
+			.LeftDownCircle{
+				width:60px;
+				height:60px;
+				border-radius:55px;
+				background: black;
+				border:10px solid black;
+				position:absolute;
+				top: 115px;
+				left:-45px;
+				clip-path: polygon(0% 50%, % 0%, 0% 250%, 250% 100%, 250% 40%);
+				}
+			.RightTopCircle{
+				width:60px;
+				height:60px;
+				border-radius:55px;
+				background: black;
+				border:10px solid black;
+				position:absolute;
+				top: 0px;
+				left:45px;
+				clip-path: polygon(0% 0%, 50% 0%, 100% 100%, 50% 100%);
+				}
+			.RightDownCircle{
+				width:60px;
+				height:60px;
+				border-radius:55px;
+				background: black;
+				border:10px solid black;
+				position:absolute;
+				top: 115px;
+				left:75px;
+				clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+				}
+			
+			
+
+
+
+
+.M{
+	position: absolute;
+	top:25px;
+	left:1450px;
+	
+}
+	.M_Vertical1 {
+				background-color: black;
+				width:10px;
+				height: 225px;
+			}
+			.M_HorizontalTop1{
+				background-color: black;
+				width:91px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.M_LongSlash1{
+				background-color: black;
+				width:10px;
+				height:232px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -4px;
+				left:113px;
+			}
+		.M2{
+			position: absolute;
+			top:0px;
+			left:-115px;
+}
+			.M_Vertical2 {
+				background-color: black;
+				width:10px;
+				height: 225px;
+			}
+			.M_HorizontalTop2{
+				background-color: black;
+				width:90px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.M_LongSlash2{
+				background-color: black;
+				width:10px;
+				height:232px;
+				rotate:30px;
+				transform: rotate(-23deg);
+				position: absolute;
+				top: -4px;
+				left:113px;
+			}
+.E2{
+	position: absolute;
+	top: 25px;
+	left:1100px;
+}
+			.E2_Vertical {
+				background-color: black;
+				width:10px;
+				height: 200px;
+			}
+			.E2_HorizontalTop{
+				background-color: black;
+				width:90px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.E2_HorizontalMiddle{
+				background-color: black;
+				width:150px;
+				height: 10px;
+				position:absolute;
+				top: 140px;
+			}
+			.E2_HorizontalBottom{
+				background-color: black;
+				width:150px;
+				height: 10px;
+			}
+
+
+.B{
+	position: absolute;
+	top: 300px;
+}
+			.B_Vertical {
+				background-color: black;
+				width:10px;
+				height: 200px;
+			}
+			.B_HorizontalTop{
+				background-color: black;
+				width:90px;
+				height: 10px;
+				position: absolute;
+				top: 0px;
+				}
+			.B_HorizontalMiddle{
+				background-color: black;
+				width:150px;
+				height: 10px;
+				position:absolute;
+				top: 140px;
+			}
+			.B_HorizontalBottom{
+				background-color: black;
+				width:150px;
+				height: 10px;
+			}
+			.BigCircle {
+				width:60px;
+				height:60px;
+				border-radius:55px;
+				background: black;
+				border:10px solid black;
+				position:absolute;
+				top: 140px;
+				left:95px;
+				clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+				}
+
+
+
+
+
+
+
+
+
+
+
